@@ -28,6 +28,12 @@ function exibeMensagem($mensagem)
     echo $mensagem . PHP_EOL;
 };
 
-function titularComLetrasMaiusculas(&$conta){
+function titularComLetrasMaiusculas(&$conta)
+{
    $conta['titular'] = strtoupper($conta['titular']);
+}
+
+function exibeConta($conta)
+{
+    echo "<li>Titular: $conta[titular]. Saldo: {$conta['saldo']}</li>";
 }
