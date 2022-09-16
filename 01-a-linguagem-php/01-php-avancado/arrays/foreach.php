@@ -15,7 +15,7 @@ $contasCorrentes = [
     ]
 ];
 
-
+//     para cada contacorrente com índice = cpf   valor = conta
 foreach($contasCorrentes as $cpf => $conta){
     echo "CPF: " . $cpf . " de " . $conta['titular'] . PHP_EOL;
     
