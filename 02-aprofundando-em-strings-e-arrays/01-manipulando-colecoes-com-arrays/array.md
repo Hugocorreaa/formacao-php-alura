@@ -7,8 +7,6 @@
 
 ##Funções nativas
 
-
-
 - ==Ordenação :==
     **sort()**
     >  *ordenação de valores crescente*
@@ -176,6 +174,22 @@
     **array_flip()**
     > *inverte chave/valor para valor/chave*
 
-- ==Array unpack operator==
+- ==Array unpack operator :==
 
     `$alunos2022 = [...$alunos2021, 'carlos vinivius', ...$novosAlunos]`
+
+- ==Adição :==
+
+    **array_push(*`array:, values:`*)**
+    > *adiciona valores ao final do array*
+
+    **array_unshift()**
+    > *adiciona valores ao inicio do array*
+
+- ==Remoção :==
+  
+    **array_shift()**
+    > *remove e retorna o primeiro valor*
+
+    **array_pop()**
+    > *remove e retorna o ultimo valor*
